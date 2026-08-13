@@ -107,7 +107,19 @@ annual predictability for inventory planning.
   unit economics modeling (LTV:CAC ratio)
 
 ---
+## Deliverables
 
+├── data/
+│ ├── orders.csv
+│ ├── products.csv
+│ ├── orders_powerbi.csv
+│ └── products_powerbi.csv
+├── excel/
+│ └── funnel_analysis_excel_only.xlsx
+├── powerbi/
+│ ├── funnel_analysis.pbix
+│ └── funnel_analysis_dashboard.pdf
+└── README.md
 ---
 
 ## How to view
