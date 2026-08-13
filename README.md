@@ -6,12 +6,29 @@
 
 ---
 
+## Executive Summary
+
+Using Excel and Power BI, I analyzed order and product data from an
+e-commerce business and built a dashboard to track orders through the
+fulfillment funnel. After identifying that the largest revenue
+opportunities are to reduce the 29% order drop-off rate from returns
+and cancellations, and to grow underperforming categories beyond
+Electronics, I recommend that the business team implements a few
+adjustments that will lead to higher revenue and stronger margins:
+
+1. Investigate and fix the root causes of returns and cancellations
+2. Launch mid-year promotional campaigns to reduce December dependency
+3. Invest in Clothing and Home & Kitchen to reduce category concentration risk
+
 ## Business problem
 
 An e-commerce business was seeing steady order volume but shrinking
 margins. Leadership needed to understand whether the problem was in
 acquisition, fulfillment, product mix, or customer behavior — and where
 to focus first to stop the revenue leak.
+
+**How can the business recover lost revenue and build a more resilient
+order funnel without increasing customer acquisition costs?**
 
 ---
 
@@ -76,37 +93,32 @@ to focus first to stop the revenue leak.
 
 ## Recommendations
 
-**1. Investigate the 29% drop-off rate — highest priority**
-Nearly 1 in 3 orders never completes. Before spending on acquisition,
-identify whether returns and cancellations are driven by product quality,
-inaccurate listings, pricing mismatch, or fulfillment delays. A 10%
-reduction in churn recovers ~$68K in annual revenue.
+1. **Fix the 29% drop-off rate before spending on acquisition** — investigate
+   whether returns and cancellations are driven by product quality, inaccurate
+   listings, or fulfilment delays. A 10% improvement recovers ~$68K annually
+   at zero acquisition cost.
 
-**2. Diversify category revenue**
-Electronics carrying 68% of revenue is a concentration risk. Clothing
-and Home & Kitchen need dedicated promotional investment to build a
-meaningful revenue cushion against any Electronics demand softening.
+2. **Diversify category revenue** — shift promotional budget toward Clothing
+   and Home & Kitchen to reduce Electronics dependency and build a more
+   resilient funnel.
 
-**3. Build a mid-year demand strategy**
-11 out of 12 months are flat. A structured Q2–Q3 promotional campaign
-would reduce December dependency, smooth cash flow, and improve
-annual predictability for inventory planning.
-
+3. **Launch a mid-year campaign** — a Q2–Q3 promotional push would fill the
+   flat revenue months and reduce December dependency without needing
+   new customers at the top of the funnel.
 ---
 
 ## Limitations & next steps
 
-- **No customer demographics** — adding age, location, or acquisition
-  channel would allow cohort-level churn analysis
-- **No return reason codes** — the dataset flags returns but not why;
-  capturing reason codes is the single highest-value data collection
-  improvement
-- **Static dataset** — connecting Power BI to a live data source would
-  enable real-time monitoring of the funnel
-- **No cost-of-acquisition data** — combining with CAC would allow full
-  unit economics modeling (LTV:CAC ratio)
-
+- **No return reason codes** — capturing why customers cancel or return is
+  the single highest-value data improvement to answer the business question
+- **No customer acquisition cost data** — adding CAC would reveal whether
+  fixing retention is cheaper than replacing lost customers
+- **Static dataset** — connecting Power BI to a live source would allow
+  real-time funnel monitoring
+- **No product-level breakdown** — identifying which SKUs drive the most
+  drop-off would sharpen recommendation #1 significantly
 ---
+
 ## Deliverables
 
 ├── data/
