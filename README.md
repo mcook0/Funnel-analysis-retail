@@ -34,89 +34,70 @@ order funnel without increasing customer acquisition costs?**
 
 ## Methodology
 
-1. **Data audit** — Ran 18 quality checks across both datasets (orders,
-   products) before touching anything. Documented every finding.
-2. **Data cleaning** — Resolved a silent null import issue in the `size`
-   column caused by pandas misreading `"N/A"` as missing. Zero rows
-   dropped, zero values fabricated.
-3. **Funnel analysis** — Mapped every order status (Processing → Shipped
-   → Delivered vs. Returned / Cancelled) and calculated count, percentage
-   share, and revenue impact per stage.
-4. **Segmentation** — Broke revenue down by product category, payment
-   method, and month to isolate concentration risk and seasonality.
-5. **Visualization** — Built an Excel workbook (pivot tables, 6 embedded
-   charts) and a Power BI interactive dashboard (slicers, cross-filtering,
-   KPI cards) for business stakeholder presentation.
+1. Audited and cleaned both datasets in Excel, checking for duplicates,
+   nulls, referential integrity, and date sequencing errors across 18
+   quality checks.
+
+2. Built summary tables and pivot charts in Excel to track order counts
+   and revenue across each funnel stage.
+
+3. Built an interactive dashboard in Power BI to conduct a more detailed
+   funnel analysis and determine the best areas of opportunity for
+   recovering lost revenue.
 
 ---
 
-## Skills demonstrated
+## Skills 
 
-**Data cleaning & validation**
-- Null detection and silent type coercion debugging (`keep_default_na`)
-- Referential integrity checks (FK validation across joined tables)
-- Date sequencing validation (shipping vs. order date logic)
-- Defensive whitespace normalization across all string columns
+Excel: pivot tables, conditional formatting, embedded charts, data
+cleaning, aggregate functions, funnel analysis
 
-**Analysis techniques**
-- Funnel analysis across a multi-stage order lifecycle
-- Revenue segmentation by category, status, and time period
-- Month-over-month delta calculation
-- Concentration risk identification (category revenue share)
+Power BI: DAX, calculated columns, data modeling, ETL, writing
+functions, data visualization, cross-filtering, slicers
 
-**Tools & platforms**
-- Excel — pivot tables, conditional formatting, embedded bar / line /
-  pie charts, frozen panes, auto-filters
-- Power BI Desktop — data modeling, DAX (CALENDAR table), funnel chart,
-  donut chart, line chart, slicers, cross-filter interactivity
-- pandas — data auditing, type casting, datetime parsing, group
-  aggregations
-
-**Soft skills**
-- Structured a full data quality log before any analysis
-- Translated raw numbers into executive-ready recommendations
-- Documented every assumption and decision for reproducibility
 
 ---
 
-## Key findings
+## Results & Business Recommendation
 
-| Finding | Detail |
-|---------|--------|
-| Delivery rate | Only **43.3%** of orders reach Delivered |
-| Revenue at risk | **29%** of orders lost to returns (14.3%) and cancellations (14.7%) |
-| Category concentration | **Electronics = 68%** of total revenue — single-category dependency |
-| Seasonality gap | Revenue flat at ~$95–105K/month except December (+21% spike) |
-| Payment behavior | All 5 methods split evenly at ~20% — checkout is not the bottleneck |
+Building a dashboard to track e-commerce orders gives business and sales
+stakeholders full visibility into the order funnel — both overall and by
+product category. Because of centralizing this data, stakeholders are now
+able to self-serve, reducing time spent on ad hoc reporting requests per week.
+
+This analysis showed that nearly 57% of orders fall out before reaching
+successful delivery, and Electronics accounts for 68% of all revenue. According
+to the funnel breakdown, reducing the return and cancellation rate by just 10%
+recovers approximately $68K in annual revenue without increasing acquisition
+costs, and shifting promotional investment toward Clothing and Home & Kitchen
+would reduce category concentration risk over time.
+
+Because the biggest revenue impacts will likely come from reducing order
+drop-off and strengthening category diversity, I recommend a few business
+adjustments:
+
+1. Send inactive customers reminder emails and texts to encourage them
+   to complete their purchase before cancelling.
+2. Work with the product and fulfilment team to identify and remove the
+   friction points causing returns and cancellations.
+3. Add clearer product descriptions and expectation-setting copy at the
+   point of purchase to reduce return rates.
+4. Feature category promotions for Clothing and Home & Kitchen to
+   diversify revenue away from Electronics dependency.
+
+I believe these adjustments will best tackle the largest funnel drop-off
+points, increase completed orders and revenue, and save the analytics
+team time from a reduction in ad hoc reporting requests.
+   
 
 ---
 
-## Recommendations
 
-1. **Fix the 29% drop-off rate before spending on acquisition** — investigate
-   whether returns and cancellations are driven by product quality, inaccurate
-   listings, or fulfilment delays. A 10% improvement recovers ~$68K annually
-   at zero acquisition cost.
+## Next steps
 
-2. **Diversify category revenue** — shift promotional budget toward Clothing
-   and Home & Kitchen to reduce Electronics dependency and build a more
-   resilient funnel.
-
-3. **Launch a mid-year campaign** — a Q2–Q3 promotional push would fill the
-   flat revenue months and reduce December dependency without needing
-   new customers at the top of the funnel.
----
-
-## Limitations & next steps
-
-- **No return reason codes** — capturing why customers cancel or return is
-  the single highest-value data improvement to answer the business question
-- **No customer acquisition cost data** — adding CAC would reveal whether
-  fixing retention is cheaper than replacing lost customers
-- **Static dataset** — connecting Power BI to a live source would allow
-  real-time funnel monitoring
-- **No product-level breakdown** — identifying which SKUs drive the most
-  drop-off would sharpen recommendation #1 significantly
+1. AB test product listing copy and category promotions within the funnel
+2. Train the sales and fulfillment teams on the findings and recommendations
+3. Measure email and promotional campaign open and click rates
 ---
 
 ## Deliverables
