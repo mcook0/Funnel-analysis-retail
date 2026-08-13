@@ -1,0 +1,21 @@
+product_id,product_name,product_category,manufacturing_city,size,color,SKU,weight_kg,unit_cost_usd
+770487,Wireless Headphones,Electronics,Seoul,,Beige,SKU-88907,0.33,27.87
+216739,Smart Watch,Electronics,Mumbai,,Green,SKU-38893,2.36,36.99
+126225,Bluetooth Speaker,Electronics,Shenzhen,,Gray,SKU-65392,1.83,22.88
+877572,USB-C Hub,Electronics,Ho Chi Minh City,,White,SKU-22156,2.02,46.28
+388389,Laptop Stand,Electronics,Ho Chi Minh City,,Orange,SKU-44671,4.07,88.92
+356787,Mechanical Keyboard,Electronics,Mumbai,,White,SKU-59615,0.58,38.72
+334053,Webcam HD,Electronics,Jakarta,,Blue,SKU-85674,1.12,13.0
+246316,Running Jacket,Clothing,Seoul,M,White,SKU-40512,4.36,48.71
+872246,Denim Jeans,Clothing,Bangkok,,Blue,SKU-31319,1.98,29.09
+207473,Graphic Tee,Clothing,Tokyo,,White,SKU-89840,3.25,66.43
+809570,Hoodie,Clothing,Seoul,S,Silver,SKU-59735,1.5,111.42
+876646,Cargo Shorts,Clothing,Mumbai,S,Blue,SKU-17331,1.3,8.69
+671858,Air Fryer,Home & Kitchen,Ho Chi Minh City,,Green,SKU-45093,0.52,110.01
+191161,Coffee Maker,Home & Kitchen,Jakarta,,Blue,SKU-37869,3.35,50.5
+719176,Cast Iron Pan,Home & Kitchen,Bangkok,,Gray,SKU-44718,0.87,90.67
+542417,Knife Set,Home & Kitchen,Mumbai,,Red,SKU-86622,2.26,72.11
+133326,Yoga Mat,Sports,Ho Chi Minh City,,Navy,SKU-28131,2.65,15.45
+131244,Resistance Bands,Sports,Shenzhen,,White,SKU-30033,3.21,96.09
+198246,Data Science Basics,Books,Taipei,,Orange,SKU-18326,2.05,73.53
+329258,Python for Beginners,Books,Bangkok,,Beige,SKU-42953,4.86,103.99
