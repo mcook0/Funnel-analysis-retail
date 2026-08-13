@@ -1,7 +1,7 @@
 # E-Commerce Funnel Analysis | Excel · Power BI · Data Cleaning · Business Intelligence
 
 > Identified **$680K+ in at-risk revenue** across 5,000 orders by mapping
-> the full order lifecycle and pinpointing where — and why — customers
+> the full order lifecycle and pinpointing where and why customers
 > were dropping off before delivery.
 
 ---
