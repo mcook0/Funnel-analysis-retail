@@ -78,7 +78,7 @@ adjustments:
 
 1. Send inactive customers reminder emails and texts to encourage them
    to complete their purchase before cancelling.
-2. Work with the product and fulfilment team to identify and remove the
+2. Work with the product and fulfillment team to identify and remove the
    friction points causing returns and cancellations.
 3. Add clearer product descriptions and expectation-setting copy at the
    point of purchase to reduce return rates.
