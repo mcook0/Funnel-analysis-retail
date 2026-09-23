@@ -122,3 +122,19 @@ team time from a reduction in ad hoc reporting requests.
 | `.xlsx` | Microsoft Excel or Google Sheets |
 | `.pbix` | [Power BI Desktop](https://powerbi.microsoft.com/desktop) — free |
 | `.pdf` | Any PDF viewer — no software needed |
+<img width="1068" height="606" alt="image" src="https://github.com/user-attachments/assets/499185ef-8cc2-4567-b0e4-f02a41c5a2bc" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
